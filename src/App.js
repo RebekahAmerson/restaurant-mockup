@@ -12,7 +12,6 @@ class App extends Component {
 
   render() {
     const page = this.state.page;
-    console.log(page);
     return (
       <div id="main-page">
         <nav id="navbar">
@@ -24,7 +23,7 @@ class App extends Component {
             <li className="nav-link" onClick={() => this.setState({page: 'contact'})}>Contact</li>
           </ul>
         </nav>
-        <div>
+        <div id="background">
           {(() => {
             switch(page) {
               case 'home':
