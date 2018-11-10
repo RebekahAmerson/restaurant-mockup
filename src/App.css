@@ -57,10 +57,25 @@ h2, ul, p {
   margin: 45% 0 0 95px;
 }
 
-#home-page p {
+#photo-caption {
   font-size: 10px;
   position: absolute;
   bottom: 0;
+}
+
+#first-box, #second-box {
+  border-radius: 10%;
+  background-color: #FFFEF1;
+  color: #140F0C;
+  border: dashed 3px #B0521C;
+  width: 65%;
+  padding: 5px;
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+#second-box {
+  margin-left: 100px;
 }
 
 /*Media Queries*/

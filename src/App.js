@@ -40,6 +40,7 @@ class App extends Component {
             }
           })()}
         </div>
+        <p id="photo-caption">Photo by Jimi Filipovski on Unsplash</p>
       </div>
     );
   }
