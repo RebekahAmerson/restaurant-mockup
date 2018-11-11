@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 class Menu extends Component {
   render() {
     return(
-      <div className="tester">Menu</div>
+      <div id="menu">
+        <img src="images/mock-menu.png" alt="menu"/>
+      </div>
     );
   }
 }

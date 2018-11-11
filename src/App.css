@@ -32,6 +32,7 @@ h2, ul, p {
   list-style: none;
   display: block;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 #background {
@@ -40,6 +41,17 @@ h2, ul, p {
   height: calc(100vh - 140px);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/jimi-filipovski-189721-unsplash.jpg");
   background-size: auto 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  background: linear-gradient(to right, #DF6D27, #B0521C);
+  font-size: 12px;
+  text-align: center;
 }
 
 #home-page h2 {
@@ -60,7 +72,7 @@ h2, ul, p {
 #photo-caption {
   font-size: 10px;
   position: absolute;
-  bottom: 0;
+  bottom: 30px;
 }
 
 #first-box, #second-box {
@@ -69,13 +81,19 @@ h2, ul, p {
   color: #140F0C;
   border: dashed 3px #B0521C;
   width: 65%;
-  padding: 5px;
+  padding: 15px 20px;
   margin-top: 35px;
   margin-left: 15px;
 }
 
 #second-box {
-  margin-left: 100px;
+  margin-left: 80px;
+}
+
+#menu img {
+  max-width: 98%;
+  display: block;
+  margin: 15px auto;
 }
 
 /*Media Queries*/

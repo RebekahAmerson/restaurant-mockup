@@ -41,6 +41,7 @@ class App extends Component {
           })()}
         </div>
         <p id="photo-caption">Photo by Jimi Filipovski on Unsplash</p>
+        <footer>Copyright 2018 5th Street Deli. Created by Rebekah Amerson.</footer>
       </div>
     );
   }
