@@ -39,7 +39,8 @@ h2, ul, p {
   margin-top: 150px;
   height: calc(100vh - 150px);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/jimi-filipovski-189721-unsplash.jpg");
-  background-size: auto 100%;
+  /* background-size: auto 100%; */
+  background-size: cover;
 }
 
 footer {
@@ -49,23 +50,25 @@ footer {
   width: 100%;
   line-height: 30px;
   background: linear-gradient(to right, #DF6D27, #B0521C);
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 
 #home-page h2 {
   position: absolute;
-  top: 160px;
+  top: 50%;
+  transform: translate(0, -50%);
   font-size: 50px;
   font-family: 'Srisakdi', cursive;
 }
 
 #first-line {
-  margin: 25px 0 0 10px;
+  margin: -33px 0 0 10%;
 }
 
 #second-line {
-  margin: 45% 0 0 80px;
+  margin: 33px 0 0 0;
+  right: 10%;
 }
 
 #photo-caption {
@@ -93,7 +96,6 @@ footer {
 #menu img {
   position: relative;
   max-width: 98%;
-  /* max-width: 50%; */
   display: block;
   margin: 15px auto;
   z-index: 2;
@@ -138,8 +140,43 @@ footer {
 }
 
 /*Media Queries*/
+  /* Tablets */
 @media only screen and (min-width: 768px) {
+  #navbar {
+    height: 75px;
+  }
+
   .nav-link {
     display: inline;
   }
+
+  #background {
+    margin-top: 75px;
+    height: calc(100vh - 75px);
+  }
+
+  #home-page h2 {
+    font-size: 100px;
+  }
+
+  #first-line {
+    margin-top: -75px;
+  }
+
+  #second-line {
+    margin-top: 75px;
+  }
+
+}
+
+/* Desktop */
+@media only screen and (min-width: 992px) {
+  #first-line {
+    margin-left: 15%;
+  }
+
+  #second-line {
+    right: 15%;
+  }
+
 }
