@@ -36,10 +36,10 @@ h2, ul, p {
 }
 
 #background {
+  display: block;
   margin-top: 150px;
   height: calc(100vh - 150px);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/jimi-filipovski-189721-unsplash.jpg");
-  /* background-size: auto 100%; */
   background-size: cover;
 }
 
@@ -79,18 +79,20 @@ footer {
 }
 
 #first-box, #second-box {
-  border-radius: 10%;
+  display: inline-block;
+  font-size: 14px;
   background-color: #FFFEF1;
   color: #140F0C;
-  border: dashed 3px #B0521C;
+  border: solid 3px #B0521C;
   width: 65%;
+  max-width: 295px;
   padding: 15px 20px;
-  margin-top: 35px;
-  margin-left: 15px;
+  margin-left: 10%;
+  margin-top: 8%;
 }
 
 #second-box {
-  margin-left: 80px;
+  margin-left: 20%;
 }
 
 #menu img {
@@ -165,6 +167,17 @@ footer {
 
   #second-line {
     margin-top: 75px;
+  }
+
+  #first-box, #second-box {
+    font-size: 22px;
+    max-width: 500px;
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+
+  #second-box {
+    margin-left: 20%;
   }
 
 }
