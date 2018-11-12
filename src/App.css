@@ -38,7 +38,7 @@ h2, ul, p {
 #background {
   display: block;
   margin-top: 150px;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 180px);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("images/jimi-filipovski-189721-unsplash.jpg");
   background-size: cover;
 }
@@ -95,11 +95,18 @@ footer {
   margin-left: 20%;
 }
 
+#menu {
+  display: grid;
+  align-items: center;
+  height: 100%;
+}
+
 #menu img {
   position: relative;
   max-width: 98%;
+  max-height: calc(100vh - 180px);
   display: block;
-  margin: 15px auto;
+  margin: auto;
   z-index: 2;
 }
 
