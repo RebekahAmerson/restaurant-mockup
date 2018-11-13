@@ -78,21 +78,22 @@ footer {
   z-index: 1;
 }
 
-#first-box, #second-box {
-  display: inline-block;
+#about {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 180px);
+  max-height: 450px;
+}
+
+.boxes {
   font-size: 14px;
   background-color: #FFFEF1;
   color: #140F0C;
   border: solid 3px #B0521C;
-  width: 65%;
-  max-width: 295px;
+  max-width: 270px;
   padding: 15px 20px;
-  margin-left: 10%;
-  margin-top: 8%;
-}
-
-#second-box {
-  margin-left: 20%;
+  margin: auto;
 }
 
 #menu {
@@ -111,14 +112,25 @@ footer {
 }
 
 #contact {
-  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  height: calc(100vh - 190px);
+  z-index: 2;
+  margin-top: 10px;
 }
 
-#contact img {
-  max-width: 55%;
+#contact-img {
   display: block;
   margin: auto;
   border: solid 5px #140F0C;
+  background-image: url("images/edited-front.png");
+  width: 80%;
+  max-width: 500px;
+  height: 100%;
+  min-height: 100px;
+  background-size: cover;
 }
 
 #rest-info {
@@ -127,7 +139,7 @@ footer {
   background-color: #FFFEF1;
   width: 75%;
   display: block;
-  margin: 10px auto;
+  margin: auto;
   text-align: center;
   padding: 10px 5px;
   font-size: 12px;
@@ -138,6 +150,7 @@ footer {
   grid-template-columns: 1fr 2fr;
   grid-auto-flow: dense;
   margin-top: 8px;
+  grid-column-gap: 10px;
 }
 
 .rest-days {
@@ -160,8 +173,8 @@ footer {
   }
 
   #background {
-    margin-top: 75px;
-    height: calc(100vh - 75px);
+    margin-top: 85px;
+    height: calc(100vh - 115px);
   }
 
   #home-page h2 {
@@ -176,17 +189,23 @@ footer {
     margin-top: 75px;
   }
 
-  #first-box, #second-box {
+  .boxes {
     font-size: 22px;
-    max-width: 500px;
-    margin-left: 5%;
-    margin-top: 10%;
+    max-width: 700px;
   }
 
-  #second-box {
-    margin-left: 20%;
+  #contact {
+    height: calc(100vh - 140px);
+    margin-top: 25px;
   }
 
+  #rest-info {
+    font-size: 20px;
+  }
+
+  #about {
+    height: calc(100vh - 115px)
+  }
 }
 
 /* Desktop */
@@ -197,6 +216,25 @@ footer {
 
   #second-line {
     right: 15%;
+  }
+
+.boxes {
+  max-width: 950px;
+}
+
+  #contact {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #contact-img {
+    height: 70%;
+    max-height: 300px;
+    width: 90%;
+   }
+
+  #rest-info {
+    grid-column: 2;
+    padding: 10px 15px;
   }
 
 }

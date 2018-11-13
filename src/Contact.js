@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return(
       <div id="contact">
-        <img src="images/lexie-barnhorn-583894-unsplash.jpg" alt="restaurant"/>
+        <div id="contact-img"></div>
         <div id="rest-info">
           <div id="address">
             <p>826 Sunshine Dr</p>
