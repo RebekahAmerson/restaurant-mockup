@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -16,14 +17,14 @@
   "eslintConfig": {
     "extends": "react-app",
     "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
     },
     "rules": {
-        "semi": 2
+      "semi": 2
     }
   },
   "browserslist": [

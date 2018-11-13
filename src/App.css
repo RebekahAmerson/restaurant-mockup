@@ -32,7 +32,11 @@ h2, ul, p {
   list-style: none;
   display: block;
   margin-right: 15px;
-  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #background {
@@ -129,6 +133,7 @@ footer {
   width: 80%;
   max-width: 500px;
   height: 100%;
+  max-height: 225px;
   min-height: 100px;
   background-size: cover;
 }

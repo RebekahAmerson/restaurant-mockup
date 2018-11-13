@@ -4,6 +4,8 @@ import Home from'./Home.js';
 import About from'./About.js';
 import Menu from'./Menu.js';
 import Contact from'./Contact.js';
+import { Route, Link } from 'react-router-dom';
+
 
 class App extends Component {
   state = {
@@ -11,34 +13,22 @@ class App extends Component {
   }
 
   render() {
-    const page = this.state.page;
     return (
       <div id="main-page">
         <nav id="navbar">
           <h1 id="logo">5th Street Deli</h1>
           <ul>
-            <li className="nav-link" onClick={() => this.setState({page: 'home'})}>Home</li>
-            <li className="nav-link" onClick={() => this.setState({page: 'about'})} >About</li>
-            <li className="nav-link" onClick={() => this.setState({page: 'menu'})}>Menu</li>
-            <li className="nav-link" onClick={() => this.setState({page: 'contact'})}>Contact</li>
+            <li className="nav-link" ><Link to="/">Home</Link></li>
+            <li className="nav-link" ><Link to="/about">About</Link></li>
+            <li className="nav-link" ><Link to="/menu">Menu</Link></li>
+            <li className="nav-link" ><Link to="/contact">Contact</Link></li>
           </ul>
         </nav>
         <div id="background">
-          {(() => {
-            switch(page) {
-              case 'home':
-                return <Home />;
-              case 'about':
-                return <About />;
-              case 'menu':
-                return <Menu />;
-              case 'contact':
-                return <Contact />;
-              default:
-              console.log(page);
-               return null;
-            }
-          })()}
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/menu" component={Menu} />
+          <Route exact path="/contact" component={Contact} />
         </div>
         <p id="photo-caption">Photo by Jimi Filipovski on Unsplash</p>
         <footer>Copyright 2018 5th Street Deli. Created by Rebekah Amerson.</footer>
