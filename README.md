@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). [React Router](https://github.com/ReactTraining/react-router) was also utilized.
+
+## Restaurant Mock-up Web App.
+
+This is a mock webpage for a fictitious restaurant for the purposes of my portfolio.
+
+## Photo Credits.
+
+Background picture: [Photo by Jimi Filipovski on Unsplash.](https://unsplash.com/photos/sHG1dCUXgPY)
+
+Store front picture: [Photo by Robert Bye on Unsplash.](https://unsplash.com/photos/Kz3Gc9i6luo)
+Photo edited by me on Gimp.
 
 ## Available Scripts
 
