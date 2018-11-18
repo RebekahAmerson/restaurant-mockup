@@ -1,6 +1,7 @@
 {
   "name": "restaurant-mockup",
   "version": "0.1.0",
+  "homepage": "https://github.com/RebekahAmerson/restaurant-mockup",
   "private": true,
   "dependencies": {
     "react": "^16.6.1",
@@ -12,6 +13,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy" : "npm run build&&gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,5 +34,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
