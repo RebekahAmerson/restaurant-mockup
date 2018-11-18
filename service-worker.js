@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/RebekahAmerson/restaurant-mockup/precache-manifest.71e74830faf86ad13dd549d0ab9caec3.js"
+  "/restaurant-mockup/precache-manifest.128af6d672f1ba525bfbab3798d6dd33.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/RebekahAmerson/restaurant-mockup/index.html", {
+workbox.routing.registerNavigationRoute("/restaurant-mockup/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

@@ -1,14 +1,14 @@
 {
-  "main.css": "/RebekahAmerson/restaurant-mockup/static/css/main.4de48d02.chunk.css",
-  "main.js": "/RebekahAmerson/restaurant-mockup/static/js/main.1110499c.chunk.js",
-  "main.js.map": "/RebekahAmerson/restaurant-mockup/static/js/main.1110499c.chunk.js.map",
-  "static/js/1.e898c1d8.chunk.js": "/RebekahAmerson/restaurant-mockup/static/js/1.e898c1d8.chunk.js",
-  "static/js/1.e898c1d8.chunk.js.map": "/RebekahAmerson/restaurant-mockup/static/js/1.e898c1d8.chunk.js.map",
-  "runtime~main.js": "/RebekahAmerson/restaurant-mockup/static/js/runtime~main.4158e2ce.js",
-  "runtime~main.js.map": "/RebekahAmerson/restaurant-mockup/static/js/runtime~main.4158e2ce.js.map",
-  "static/css/main.4de48d02.chunk.css.map": "/RebekahAmerson/restaurant-mockup/static/css/main.4de48d02.chunk.css.map",
-  "static/media/App.css": "/RebekahAmerson/restaurant-mockup/static/media/edited-front.890384e4.png",
-  "index.html": "/RebekahAmerson/restaurant-mockup/index.html",
-  "precache-manifest.71e74830faf86ad13dd549d0ab9caec3.js": "/RebekahAmerson/restaurant-mockup/precache-manifest.71e74830faf86ad13dd549d0ab9caec3.js",
-  "service-worker.js": "/RebekahAmerson/restaurant-mockup/service-worker.js"
+  "main.css": "/restaurant-mockup/static/css/main.2106d89f.chunk.css",
+  "main.js": "/restaurant-mockup/static/js/main.c258436b.chunk.js",
+  "main.js.map": "/restaurant-mockup/static/js/main.c258436b.chunk.js.map",
+  "static/js/1.e898c1d8.chunk.js": "/restaurant-mockup/static/js/1.e898c1d8.chunk.js",
+  "static/js/1.e898c1d8.chunk.js.map": "/restaurant-mockup/static/js/1.e898c1d8.chunk.js.map",
+  "runtime~main.js": "/restaurant-mockup/static/js/runtime~main.77a1e2cb.js",
+  "runtime~main.js.map": "/restaurant-mockup/static/js/runtime~main.77a1e2cb.js.map",
+  "static/css/main.2106d89f.chunk.css.map": "/restaurant-mockup/static/css/main.2106d89f.chunk.css.map",
+  "static/media/App.css": "/restaurant-mockup/static/media/edited-front.890384e4.png",
+  "index.html": "/restaurant-mockup/index.html",
+  "precache-manifest.128af6d672f1ba525bfbab3798d6dd33.js": "/restaurant-mockup/precache-manifest.128af6d672f1ba525bfbab3798d6dd33.js",
+  "service-worker.js": "/restaurant-mockup/service-worker.js"
 }
