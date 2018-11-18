@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/RebekahAmerson/restaurant-mockup/precache-manifest.5bb9b761eae03b3e91f22088675130ce.js"
+  "/RebekahAmerson/restaurant-mockup/precache-manifest.71e74830faf86ad13dd549d0ab9caec3.js"
 );
 
 workbox.clientsClaim();
