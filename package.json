@@ -1,7 +1,7 @@
 {
   "name": "restaurant-mockup",
   "version": "0.1.0",
-  "homepage": "https://github.com/RebekahAmerson/restaurant-mockup",
+  "homepage": "https://rebekahamerson.github.io/restaurant-mockup/",
   "private": true,
   "dependencies": {
     "react": "^16.6.1",
