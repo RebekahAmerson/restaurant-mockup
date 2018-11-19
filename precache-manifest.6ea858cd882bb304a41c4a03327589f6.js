@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/restaurant-mockup/static/js/runtime~main.77a1e2cb.js"
   },
   {
-    "revision": "c258436ba31f02e534c1",
-    "url": "/restaurant-mockup/static/js/main.c258436b.chunk.js"
+    "revision": "f1863257cd301579c02c",
+    "url": "/restaurant-mockup/static/js/main.f1863257.chunk.js"
   },
   {
     "revision": "e898c1d807665c468d22",
     "url": "/restaurant-mockup/static/js/1.e898c1d8.chunk.js"
   },
   {
-    "revision": "c258436ba31f02e534c1",
-    "url": "/restaurant-mockup/static/css/main.2106d89f.chunk.css"
+    "revision": "f1863257cd301579c02c",
+    "url": "/restaurant-mockup/static/css/main.e36c81c4.chunk.css"
   },
   {
-    "revision": "b2381e4ef75eec63ac7988c10a5127ab",
+    "revision": "bcda2c56efd0664034876251897299f3",
     "url": "/restaurant-mockup/index.html"
   }
 ];
