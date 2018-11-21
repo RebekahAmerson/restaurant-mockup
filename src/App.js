@@ -6,12 +6,11 @@ import Menu from'./Menu.js';
 import Contact from'./Contact.js';
 import { Route, Link } from 'react-router-dom';
 
+const vh = window.innerHeight;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+console.log(vh);
 
 class App extends Component {
-  state = {
-    page: 'home'
-  }
-
   render() {
     return (
       <div id="main-page">

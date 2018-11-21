@@ -7,7 +7,7 @@ class Contact extends Component {
         <div id="contact-img"></div>
         <div id="rest-info">
           <div id="address">
-            <p>826 Sunshine Dr</p>
+            <p>82361 5th Street</p>
             <p>Pittsburg, Ks 66762</p>
             <p>620-555-5492</p>
           </div>
