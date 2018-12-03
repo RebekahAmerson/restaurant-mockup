@@ -1,7 +1,7 @@
 {
   "main.css": "/restaurant-mockup/static/css/main.e36c81c4.chunk.css",
-  "main.js": "/restaurant-mockup/static/js/main.0c0c27fb.chunk.js",
-  "main.js.map": "/restaurant-mockup/static/js/main.0c0c27fb.chunk.js.map",
+  "main.js": "/restaurant-mockup/static/js/main.cfc6f89d.chunk.js",
+  "main.js.map": "/restaurant-mockup/static/js/main.cfc6f89d.chunk.js.map",
   "static/js/1.e898c1d8.chunk.js": "/restaurant-mockup/static/js/1.e898c1d8.chunk.js",
   "static/js/1.e898c1d8.chunk.js.map": "/restaurant-mockup/static/js/1.e898c1d8.chunk.js.map",
   "runtime~main.js": "/restaurant-mockup/static/js/runtime~main.77a1e2cb.js",
@@ -9,6 +9,6 @@
   "static/css/main.e36c81c4.chunk.css.map": "/restaurant-mockup/static/css/main.e36c81c4.chunk.css.map",
   "static/media/App.css": "/restaurant-mockup/static/media/edited-front.890384e4.png",
   "index.html": "/restaurant-mockup/index.html",
-  "precache-manifest.85a08d5500c0d2c1cdd2f1155b768e7f.js": "/restaurant-mockup/precache-manifest.85a08d5500c0d2c1cdd2f1155b768e7f.js",
+  "precache-manifest.1d094341db7c09b9ff281d0068b0f1a1.js": "/restaurant-mockup/precache-manifest.1d094341db7c09b9ff281d0068b0f1a1.js",
   "service-worker.js": "/restaurant-mockup/service-worker.js"
 }
